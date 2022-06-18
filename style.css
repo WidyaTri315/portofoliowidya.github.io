@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.home {
+  display: flex;
+  background: url("asset/home_background.jpg") no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: "ubuntu", "sans-serif";
+}
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+.home .home-content .text-1 {
+  font-size: 28px;
+}
+.home .home-content .text-2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .home-content .text-3 span {
+  color: #a60505;
+  font-weight: 500;
+}
+#about {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin: 100px;
+}
+#projects {
+  padding-top: 60px;
+  background-color: #273036;
+}
+#projects .col {
+  color: #fff;
+  font-size: 60;
+  font-family: "ubuntu", "sans-serif";
+}
+#contact {
+  padding-top: 60px;
+}
+.photoshop {
+  padding-top: 100px;
+}
+
+.blender {
+  padding-top: 100px;
+}
